@@ -6,7 +6,7 @@ useDispatcher is a react redux hook that lets your react
 component send actions to the redux store
 */
 const Counter = () => {
-  const count = useSelector((state) => state.count);
+  const count = useSelector((state) => state.counter.count);
   const dispatch = useDispatch();
   return (
     <div>
